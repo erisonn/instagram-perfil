@@ -1,0 +1,42 @@
+.profile-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.profile-card img {
+  height: 150px;
+  border-radius: 50%;
+}
+
+.profile-card .follow {
+  width: 40%;
+  text-align: center;
+}
+
+.profile-card button {
+  background-color: #3b90ff;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  font-size: 15px;
+  border: transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 50%;
+}
+
+.profile-card h1 {
+  font-size: 3vh;
+}
+
+@media only screen and (max-width: 480px) {
+  .profile-card img {
+    height: 130px;
+  }
+}
+/*# sourceMappingURL=profileCard.css.map */

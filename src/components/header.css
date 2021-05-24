@@ -1,0 +1,65 @@
+/* header */
+header {
+  width: 100%;
+  height: 54px;
+  background-color: white;
+  border-bottom: 1px solid #cccccc;
+}
+
+header .header-wrapper {
+  margin: 0px 10px 0px 10px;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 100%;
+  max-width: 975px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .header-wrapper img {
+  margin-top: 10px;
+}
+
+header .header-wrapper input {
+  text-align: center;
+  border: 1px solid #cacaca;
+  height: 45%;
+  border-radius: 3px;
+  width: 200px;
+}
+
+header .header-wrapper #log-in {
+  background-color: #3b90ff;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  font-size: 15px;
+  border: transparent;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+header .header-wrapper #sign-up {
+  background-color: white;
+  color: #3b90ff;
+  padding: 5px 10px 5px 10px;
+  font-size: 15px;
+  border: transparent;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) {
+  header input {
+    display: none;
+  }
+}
+/*# sourceMappingURL=header.css.map */
