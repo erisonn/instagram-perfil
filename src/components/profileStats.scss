@@ -4,7 +4,14 @@
     justify-content: center;
     li {
         display: inline;
-        padding: 10px;
-        font-size: 1.5vh;
+        margin: 10px;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width: 340px) {
+    .profile-stats li {
+        margin: 5px;
+        font-size: 0.7rem;
     }
 }

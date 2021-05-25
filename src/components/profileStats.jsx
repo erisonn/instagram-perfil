@@ -5,9 +5,9 @@ class ProfileStats extends Component {
     render() { 
         return ( 
             <ul className="profile-stats">
-                <li>12 Posts</li>
-                <li>470 Followers</li>
-                <li>435 Following</li>
+                <li><strong>12</strong> Posts</li>
+                <li><strong>470</strong> Followers</li>
+                <li><strong>435</strong> Following</li>
             </ul>
         );
     }

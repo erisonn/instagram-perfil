@@ -32,6 +32,8 @@ header {
             border: transparent;
             border-radius: 3px;
             cursor: pointer;
+            font-family: 'Roboto Slab', serif;
+            font-weight: bold;
         }
         #sign-up {
             background-color: white;
@@ -41,12 +43,18 @@ header {
             border: transparent;
             border-radius: 3px;
             cursor: pointer;
+            font-family: 'Roboto Slab', serif;
+            font-weight: bold;
         }
     }
 }
-
 @media only screen and (max-width: 480px) {
     header input {
         display: none;
+    }
+}
+@media only screen and (max-width: 340px) {
+    #sign-up, #log-in {
+        font-size: 13px !important;
     }
 }

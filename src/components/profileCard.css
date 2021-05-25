@@ -12,6 +12,7 @@
 .profile-card img {
   height: 150px;
   border-radius: 50%;
+  border: 2px solid whitesmoke;
 }
 
 .profile-card .follow {
@@ -27,16 +28,33 @@
   border: transparent;
   border-radius: 3px;
   cursor: pointer;
-  width: 50%;
+  width: 7rem;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
 }
 
 .profile-card h1 {
-  font-size: 3vh;
+  font-size: 1.5rem;
+}
+
+.profile-card a {
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 @media only screen and (max-width: 480px) {
   .profile-card img {
-    height: 130px;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .profile-card button {
+    font-size: 10px;
+    width: 5rem;
+  }
+  .profile-card h1 {
+    font-size: 1rem;
   }
 }
 /*# sourceMappingURL=profileCard.css.map */

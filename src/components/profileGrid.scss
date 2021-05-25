@@ -1,0 +1,22 @@
+.profile-grid {
+    margin: auto;
+    max-width: 70.5rem;
+    padding: 2rem 0px;
+    border-top: 1px solid rgb(204, 204, 204);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .grid-wrapper {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 1vw;
+        margin-top: 1vw;
+    }
+    .pictures {
+        padding-bottom: 90%;
+        border: 1px solid black;
+        cursor: pointer;
+        &:hover {
+            background-color: rgba(0, 0, 0, 0.199);
+        }
+    }
+}

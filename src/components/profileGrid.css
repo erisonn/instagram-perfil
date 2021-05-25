@@ -1,0 +1,29 @@
+.profile-grid {
+  margin: auto;
+  max-width: 70.5rem;
+  padding: 2rem 0px;
+  border-top: 1px solid #cccccc;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.profile-grid .grid-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -webkit-column-gap: 1vw;
+          column-gap: 1vw;
+  margin-top: 1vw;
+}
+
+.profile-grid .pictures {
+  padding-bottom: 90%;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.profile-grid .pictures:hover {
+  background-color: rgba(0, 0, 0, 0.199);
+}
+/*# sourceMappingURL=profileGrid.css.map */

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './header';
 import ProfileCard from './profileCard'
-import ProfileStats from './profileStats'
+import ProfileGrid from './profileGrid'
 
 class Main extends Component {
     state = {  }
@@ -10,6 +10,7 @@ class Main extends Component {
             <React.Fragment>
                 <Header />
                 <ProfileCard />
+                <ProfileGrid />
             </React.Fragment>
         );
     }

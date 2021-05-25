@@ -45,6 +45,8 @@ header .header-wrapper #log-in {
   border: transparent;
   border-radius: 3px;
   cursor: pointer;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
 }
 
 header .header-wrapper #sign-up {
@@ -55,11 +57,19 @@ header .header-wrapper #sign-up {
   border: transparent;
   border-radius: 3px;
   cursor: pointer;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 480px) {
   header input {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  #sign-up, #log-in {
+    font-size: 13px !important;
   }
 }
 /*# sourceMappingURL=header.css.map */
