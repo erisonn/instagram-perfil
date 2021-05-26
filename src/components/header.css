@@ -59,6 +59,7 @@ header .header-wrapper #sign-up {
   cursor: pointer;
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
+  margin-right: 10px;
 }
 
 @media only screen and (max-width: 480px) {

@@ -1,26 +1,31 @@
 .profile-card {
+  margin-top: 30px;
+  max-width: 70.5rem;
+  margin: 50px auto;
+}
+
+.profile-card .profile-card-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 30px;
-  width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-.profile-card img {
+.profile-card .profile-card-wrapper img {
   height: 150px;
   border-radius: 50%;
   border: 2px solid whitesmoke;
+  margin-right: 5%;
+  margin-top: 20px;
 }
 
-.profile-card .follow {
-  width: 40%;
-  text-align: center;
+.profile-card .profile-card-wrapper .follow {
+  width: 50%;
 }
 
-.profile-card button {
+.profile-card .profile-card-wrapper button {
   background-color: #3b90ff;
   color: white;
   padding: 5px 10px 5px 10px;
@@ -33,28 +38,39 @@
   font-weight: bold;
 }
 
-.profile-card h1 {
+.profile-card .profile-card-wrapper h1 {
   font-size: 1.5rem;
 }
 
-.profile-card a {
+.profile-card .profile-card-wrapper a {
   text-decoration: none;
   color: whitesmoke;
 }
 
-@media only screen and (max-width: 480px) {
-  .profile-card img {
-    height: 100px;
-  }
+.profile-info h3 {
+  font-size: 1rem;
 }
 
-@media only screen and (max-width: 340px) {
+.profile-info p {
+  font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .profile-card img {
+    height: 100px !important;
+  }
   .profile-card button {
-    font-size: 10px;
-    width: 5rem;
+    font-size: 10px !important;
+    width: 5rem !important;
   }
   .profile-card h1 {
-    font-size: 1rem;
+    font-size: 1rem !important;
+  }
+  .profile-info h3 {
+    font-size: 0.8rem;
+  }
+  .profile-info p {
+    font-size: 0.7rem;
   }
 }
 /*# sourceMappingURL=profileCard.css.map */

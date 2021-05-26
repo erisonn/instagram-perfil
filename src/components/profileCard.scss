@@ -1,48 +1,66 @@
 .profile-card {
-    display: flex;
     margin-top: 30px;
-    width: 100%;
-    justify-content: center;
-    img {
-        height: 150px;
-        border-radius: 50%;
-        border: 2px solid whitesmoke;
+    max-width: 70.5rem;
+    margin: 50px auto;
+    .profile-card-wrapper {
+        display: flex;
+        justify-content: center;
+        img {
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid whitesmoke;
+            margin-right: 5%;
+            margin-top: 20px;
+        }
+        .follow {
+            width: 50%;
+        }
+        button {
+            background-color: rgb(59, 144, 255);
+            color: white;
+            padding: 5px 10px 5px 10px;
+            font-size: 15px;
+            border: transparent;
+            border-radius: 3px;
+            cursor: pointer;
+            width: 7rem;
+            font-family: 'Roboto Slab', serif;
+            font-weight: bold;
+        }
+        h1 {
+            font-size: 1.5rem;
+        }
+        a {
+            text-decoration: none;
+            color: whitesmoke;
+        }
     }
-    .follow {
-        width: 40%;
-        text-align: center;
+}
+.profile-info {
+    h3 {
+        font-size: 1rem;
     }
-    button {
-        background-color: rgb(59, 144, 255);
-        color: white;
-        padding: 5px 10px 5px 10px;
-        font-size: 15px;
-        border: transparent;
-        border-radius: 3px;
-        cursor: pointer;
-        width: 7rem;
-        font-family: 'Roboto Slab', serif;
-        font-weight: bold;
-    }
-    h1 {
-        font-size: 1.5rem;
-    }
-    a {
-        text-decoration: none;
-        color: whitesmoke;
+    p {
+        font-size: 0.9rem;
     }
 }
 @media only screen and (max-width: 480px) {
     .profile-card img {
-        height: 100px;
+        height: 100px !important;
     }
-}
-@media only screen and (max-width: 340px) {
     .profile-card button {
-        font-size: 10px;
-        width: 5rem;
+        font-size: 10px !important;
+        width: 5rem !important;
     }
     .profile-card h1 {
-        font-size: 1rem;
+        font-size: 1rem !important;
+    }
+    .profile-info {
+        h3 {
+            font-size: 0.8rem;
+        }
+        p {
+            font-size: 0.7rem;
+        }
     }
 }
