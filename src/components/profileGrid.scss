@@ -11,16 +11,18 @@
         grid-template-columns: auto auto auto;
         column-gap: 1vw;
         margin-top: 1vw;
-    }
-    .pictures {
-        display: flex;
-        cursor: pointer;
-        .content {
-            max-width: 100%;
-            max-height: 100%;
-        }
-        &:hover {
-            background-color: rgba(0, 0, 0, 0.116);
+        .pictures {
+            display: flex;
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.801);
+            .content {
+                object-fit: cover;
+                max-width: 100%;
+                transition: 0.2s ease-in-out;
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
         }
     }
 }
