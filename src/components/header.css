@@ -47,6 +47,12 @@ header .header-wrapper #log-in {
   cursor: pointer;
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+}
+
+header .header-wrapper #log-in:hover {
+  background-color: #0571ff;
 }
 
 header .header-wrapper #sign-up {
@@ -60,6 +66,12 @@ header .header-wrapper #sign-up {
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
   margin-right: 10px;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+}
+
+header .header-wrapper #sign-up:hover {
+  color: #0571ff;
 }
 
 @media only screen and (max-width: 480px) {

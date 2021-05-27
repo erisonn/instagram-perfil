@@ -3,6 +3,7 @@
   max-width: 70.5rem;
   padding: 2rem 0px;
   border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -18,12 +19,18 @@
 }
 
 .profile-grid .pictures {
-  padding-bottom: 90%;
-  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   cursor: pointer;
 }
 
+.profile-grid .pictures .content {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .profile-grid .pictures:hover {
-  background-color: rgba(0, 0, 0, 0.199);
+  background-color: rgba(0, 0, 0, 0.116);
 }
 /*# sourceMappingURL=profileGrid.css.map */

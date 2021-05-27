@@ -36,6 +36,12 @@
   width: 7rem;
   font-family: 'Roboto Slab', serif;
   font-weight: bold;
+  -webkit-transition: 0.1s ease-in-out;
+  transition: 0.1s ease-in-out;
+}
+
+.profile-card .profile-card-wrapper button:hover {
+  background-color: #0571ff;
 }
 
 .profile-card .profile-card-wrapper h1 {
